@@ -11,7 +11,12 @@
             background-color: #121212; /* Latar belakang hitam */
             color: #fff; /* Warna teks putih */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 60px 20px; /* Perbesar padding di body */
+            display: flex;
+            justify-content: center; /* Horizontally center content */
+            align-items: center; /* Vertically center content */
+            min-height: 100vh; /* Full viewport height */
+            padding: 0;
+            margin: 0;
         }
 
         h1, h2 {
@@ -26,7 +31,7 @@
             padding: 40px;
             background-color: #1f1f1f; /* Latar belakang abu-abu gelap */
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Perbesar shadow */
-            margin: auto; /* Centerkan kontainer */
+            text-align: center;
         }
 
         .form-control, .btn, .form-select {
@@ -124,7 +129,7 @@
     </style>
 </head>
 <body>
-    <div class="container text-center">
+    <div class="container">
         <h1>SecuDork</h1>
         <p class="tagline">Easily search for resolved security vulnerabilities and bug reports across the web.</p>
 
