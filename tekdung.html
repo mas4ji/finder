@@ -52,7 +52,8 @@
             background-color: #007bff; /* Warna tombol biru */
             border-color: #007bff;
             font-size: 1.5rem; /* Perbesar ukuran font tombol */
-            padding: 15px; /* Perbesar padding tombol */
+            padding: 15px 30px; /* Perbesar padding tombol */
+            width: auto; /* Mengatur lebar tombol agar tidak terlalu besar */
         }
 
         .btn-primary:hover {
@@ -118,6 +119,13 @@
 
             h1 {
                 font-size: 1.5rem; /* Ukuran font h1 lebih besar */
+            }
+
+            /* Memastikan tombol tetap di tengah di perangkat mobile */
+            .btn-primary {
+                padding: 15px 20px; /* Sesuaikan padding tombol agar lebih proporsional di mobile */
+                width: 100%; /* Lebar tombol 100% agar responsif */
+                font-size: 1.5rem; /* Ukuran font lebih besar di mobile */
             }
         }
 
